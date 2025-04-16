@@ -4,26 +4,14 @@ import "../scss/modail.scss"
 import Arrow from "../img/modail/arow.svg"
 import Token from "../img/modail/Vector.png"
 import Flower from "../img/modail/flower_1.png"
-import b1 from "../img/modail/bee/frame(1).png"
-import b2 from "../img/modail/bee/frame(2).png"
-import b3 from "../img/modail/bee/frame(3).png"
-import b4 from "../img/modail/bee/frame(4).png"
-import b5 from "../img/modail/bee/frame(5).png"
-import b6 from "../img/modail/bee/frame(6).png"
-import b7 from "../img/modail/bee/frame(7).png"
-import b8 from "../img/modail/bee/frame(8).png"
-import b9 from "../img/modail/bee/frame(9).png"
-import b10 from "../img/modail/bee/frame(10).png"
-import b11 from "../img/modail/bee/frame(11).png"
-import b12 from "../img/modail/bee/frame(12).png"
-import b13 from "../img/modail/bee/frame(13).png"
-import b14 from "../img/modail/bee/frame(14).png"
-import b15 from "../img/modail/bee/frame(15).png"
-import b16 from "../img/modail/bee/frame(16).png"
-import b17 from "../img/modail/bee/frame(17).png"
 
-
-const allFrames = [b1, b2, b3, b4, b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15, b16, b17];
+const importAll = (r) => r.keys().map(r);
+const allFrames = importAll(require.context('../img/modail/bee', false, /\.png$/))
+  .sort((a, b) => {
+    const numA = parseInt(a.match(/frame\((\d+)\)/)[1], 10);
+    const numB = parseInt(b.match(/frame\((\d+)\)/)[1], 10);
+    return numA - numB;
+  });
 
 const getRandomFrame = () => {
     const randIndex = Math.floor(Math.random() * allFrames.length);
@@ -40,8 +28,8 @@ const getRandomFrame = () => {
     return Math.floor(Math.random() * 3) + 1; 
   };
 export function BorderBee() {
-    const [rowTop, setRowTop] = useState(generateRandomRow(17)); 
-    const [rowBottom, setRowBottom] = useState(generateRandomRow(17));
+    const [rowTop, setRowTop] = useState(generateRandomRow(18)); 
+    const [rowBottom, setRowBottom] = useState(generateRandomRow(18));
     const [fadingIndexesTop, setFadingIndexesTop] = useState([]); 
     const [fadingIndexesBottom, setFadingIndexesBottom] = useState([]); 
   
