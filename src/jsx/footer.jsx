@@ -2,7 +2,6 @@ import React from "react";
 import "../scss/footer.scss"
 import Opensea from "../img/footer/opensea.svg"
 import Discord from "../img/footer/discord.svg"
-// import Facebook from "../img/footer/facebook.svg"
 import link from "../img/footer/linkidin.svg"
 import Twitter from "../img/footer/twitter.svg"
 import logoF from "../img/footer/logo_full.svg"
@@ -26,7 +25,6 @@ export function Footer(){
                         <a href="#" target="_blank" rel="noreferrer"><img src={Opensea} alt="" /></a>
                         <a href="#" target="_blank" rel="noreferrer"><img src={Discord} alt="" /></a>
                         <a href="#" target="_blank" rel="noreferrer"><img src={link} alt="" /></a>
-                        {/* <a href="" target="_blank" rel="noreferrer"><img src={Instagram} alt="" /></a> */}
                         <a href="#" target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
                     </div>
                     <div className="footer_reserved">
