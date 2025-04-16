@@ -22,17 +22,17 @@ export function Footer(){
                 <div className="footer-case_center">
                     <img  className="footer-logo" src={logoF} alt="" />
                     <div className="soсial-case">
-                        <a href="#" target="_blank" rel="noreferrer"><img src={Opensea} alt="" /></a>
-                        <a href="#" target="_blank" rel="noreferrer"><img src={Discord} alt="" /></a>
-                        <a href="#" target="_blank" rel="noreferrer"><img src={link} alt="" /></a>
-                        <a href="#" target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
+                        <a href={window.location.pathname} target="_blank" rel="noreferrer"><img src={Opensea} alt="" /></a>
+                        <a href={window.location.pathname} target="_blank" rel="noreferrer"><img src={Discord} alt="" /></a>
+                        <a href={window.location.pathname} target="_blank" rel="noreferrer"><img src={link} alt="" /></a>
+                        <a href={window.location.pathname} target="_blank" rel="noreferrer"><img src={Twitter} alt="" /></a>
                     </div>
                     <div className="footer_reserved">
                         <span>©2022 Bee Ukrainian. all rights reserved</span>
                     </div>
                 </div>
 
-                <ButtonLocation href="#" className="yellow">Join the club</ButtonLocation>
+                <ButtonLocation href={window.location.pathname} className="yellow">Join the club</ButtonLocation>
             </div>
 
         </div>
