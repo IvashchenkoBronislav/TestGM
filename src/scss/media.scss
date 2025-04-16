@@ -1,0 +1,335 @@
+@media(min-width:1600px){
+    .header_back-ground>img{
+        width: 1920px;
+        content: url(../img/1920.jpg) !important;
+
+        &::after{
+            content: url(../img/1920.jpg) !important;
+        }
+    }
+}
+
+@media(max-width:1600px){
+    .header_back-ground>img{
+        width: 1600px;
+        content: url(../img/1600.jpg) !important;
+
+        &::after{
+            content: url(../img/1600.jpg) !important;
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .header_back-ground>img{
+        width: 1200px;
+        content: url(../img/1200.jpg) !important;
+
+        &::after{
+            content: url(../img/1200.jpg) !important;
+        }
+    }
+
+    .header_nav{
+        &>button{
+            font-size: 16px;
+        }
+    }
+
+    .header_leng{
+        &>button{
+            font-size: 16px
+        }
+    }
+    
+    .about-us_info-case.info-case{
+        width: 98%;
+        align-items: center;
+    }
+
+    .nft-treal.info-case_nft-treal{
+        width: 350px;
+        height: 350px;
+    }
+
+    .nft-info{
+        max-width: 448px !important;
+       &>span{
+        font-size: 17px;
+       }
+       &_title{
+        font-size: 17px !important;
+       }
+    }
+
+    .text-content{
+        max-width: 430px !important;
+        &_title{
+            font-size: 30px !important;
+        }
+
+        &_subtitle{
+            font-size: 30px !important;
+        }
+
+        &_info{
+            font-size: 20px !important;
+        }
+    }
+
+
+
+    .about-us_info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-drop-case{
+        width: 98%;
+        margin: 5px auto !important;
+    }
+
+    
+}
+
+
+@media (max-width:1000px){
+    .pop-up-donate{
+        width: 70%;
+    }
+
+    .pop-up-mint{
+        width: auto !important;
+    }
+}
+
+
+@media(max-width:960px){
+    .header{
+        display: none !important;
+    }
+
+    .mini-header{
+        display: flex !important;
+    }
+
+    .header_back-ground>img{
+        width: 900px;
+        content: url(../img/900.jpg) !important;
+
+        &::after{
+            content: url(../img/900.jpg) !important;
+        }
+    }
+    .content{
+        justify-content: center;
+        padding: 0 !important;
+        
+    }
+
+    .city-heart{
+        height: 570px !important;
+    }
+
+    .city-heart_img{
+        width: 848px;
+    }
+
+    .city-heart_arrow{
+        top: -563px !important;
+        left: -1525px !important;
+    }
+    
+    .nft-info{
+        margin: 0 5px;
+    }
+    .flower-token > span{
+        margin: 10px 5px 0;
+    }
+
+    .text-content{
+        &_title{
+            font-size: 20px !important;
+        }
+        &_subtitle{
+            font-size: 20px !important;
+        }
+        &_info{
+            font-size: 14px !important;
+            margin: 18px 0 20px !important;
+        }
+    }
+    .button-location{
+        margin: 2px 0;
+    }
+
+    .about-us{
+        margin: 100px 0 0px !important;
+    }
+   
+
+    .about-us_info-case.info-case{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0 100px;
+        &>.nft-treal{
+            margin: 0 0 20px;
+        }
+    }
+
+    .bee-line-case__beack{
+        left: -198px !important;
+    }
+
+    .text-content{
+        margin: 30px 0 0 !important;
+    }
+
+    .bee-line{
+        bottom: 146px !important;
+        left: 3px !important;
+
+        &_leir1{
+            left: -48px !important;
+            top: -23px !important;
+        }
+        
+        &_leir0>img, &_leir1>img{
+            width: 94px !important;
+            height: 110px !important;
+        }
+    }
+
+    .about-us_token-info{
+        flex-direction: column;
+    }
+
+    .flower-token{
+        margin: 0 0 30px;
+    }
+
+    .cell{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 50px;
+        &_center{
+            display: none !important;
+        }
+        &_info{
+            margin: 0 !important;
+        }
+        &_numb{
+            margin: 0 0 20px !important;
+        }
+    }
+
+    .cell0{
+        flex-direction: column-reverse;
+    }
+
+    .case-yellow{
+        width: 85% !important;
+        padding: 0 20px;
+    }
+
+    .faq-drop-case_button>img{
+        margin: 0 30px 0 !important;
+    }
+}
+
+@media(max-width:720px){
+    .pop-up-donate{
+        top: 1050px !important;
+    }
+
+    .copi-modail{
+        left:20% !important;
+        bottom: -30px;
+    }
+}
+
+@media(max-width:600px){
+    .header_back-ground>img{
+        
+        position: relative;
+        left: -14px;
+
+        width: 600px;
+        content: url(../img/600.jpg) !important;
+
+        &::after{
+            content: url(../img/600.jpg) !important;
+        }
+    }
+    .bee-line{
+        bottom: 146px !important;
+        left: 3px !important;
+    }
+    .nft-treal.info-case_nft-treal {
+        width: 320px;
+        height: 320px;
+    }
+
+    .footer-case{
+        flex-direction: column;
+        align-items: center;
+        margin: 60px 0 0 !important;
+
+        &_nav {
+            flex-wrap: wrap;
+            flex-direction: row !important;
+            width: 100% !important;
+            max-width: 300px;
+            height: 30px !important;
+            margin: 0 0 20px;
+            &>button{
+                margin: 0 0 20px;
+            }
+            &>button:hover{
+                transform: scale(1.3) !important;
+            }
+            
+        }
+
+        &>a{
+            display: none;
+        }
+    }
+
+    .title{
+        font-size: 32px !important;
+    }
+    .faq-drop-case_button>span{
+        font-size: 20px !important;
+    }
+
+    .ab-pop-up_close{
+        right: 60px !important;
+    }
+}
+
+@media (max-width:550px) {
+    .pop-up-donate{
+        width: 300px;
+        padding: 30px !important;
+    }
+
+    .span-case{
+        &>span{
+            font-size: 14px;
+        }
+    }
+}
+
+@media(max-width:450px){
+    .header_back-ground>img{
+        width: 375px;
+        left: 0px;
+        content: url(../img/375.png) !important;
+
+        &::after{
+            content: url(../img/375.png) !important;
+        }
+    }
+}
+
